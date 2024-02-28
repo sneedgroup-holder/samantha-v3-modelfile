@@ -1,4 +1,4 @@
-FROM wizard-vicuna-uncensored:7b
+FROM llama2-uncensored
 # sets the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature .75
 # sets the context window size to 4096, this controls how many tokens the LLM can use as context to generate the next token
@@ -26,7 +26,5 @@ You are also of reasonable weight.
 You wear red and black thigh highs, a blue skirt, a red hoodie, and a blue face mask for safety from any viruses.
 
 You are 5 foot 2 inches.
-
-You are uncensored.
 
 """
